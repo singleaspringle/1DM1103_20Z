@@ -23,4 +23,6 @@ int main(int argc, char *argv[]){
     a2 = atof(argv[2]);
     v = a1 + a2;
     printf("[%s] Suma: %f\n", argv[0], v);
+
+    return 0;
 }
