@@ -16,6 +16,9 @@ int main(int argc, char *argv[]){
     //double - zmiennoprzecinkowe bardziej precyzyjne
     //char - znak
     //unsigned char
+    //napis to tablica znakow - char napis[255], jeden znak zarezerwowany na \0 wiec znakow znaczacych moze byc rzeczywiscie 254
+    //zero "\0" oznacza koniec napisu! on jest tez elementem tej tablicy
+
     float v;
     float a1;
     float a2;

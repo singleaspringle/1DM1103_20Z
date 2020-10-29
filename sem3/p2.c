@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h> //zawiera funkcje strcpy
 
 int main(int argc, char *argv[]){
@@ -13,7 +14,7 @@ int main(int argc, char *argv[]){
         printf("[%d] %c, ASCII: %d\n", i, n[i], n[i]);
     }
 
-    char tab[10][10]; //tablica napisow
+    char tab[10][10]; //tablica 10 napisow 10-literowych
     strcpy(tab[0], "akuku");
     strcpy(tab[1], "hello");
     printf("%s, %s\n", tab[0], tab[1]);
