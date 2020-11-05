@@ -79,6 +79,7 @@ int main(int argc, char *argv[]){
 
     fin = fopen(argv[2], "r");
     wczytaj(fin, &wiersze2, &kolumny2, macierz2);
+    
     if (kolumny2 != 1){
         printf("Druga macierz musi byc jednowymiarowa.\n");
     }
